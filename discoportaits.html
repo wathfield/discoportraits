@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <title>Disco Portraits</title>
+</head>
+<body onload="showjsoncontent()">
+    <div class="header" id="myHeader">
+        <h1 class="home_link" href="index.html">HOME</h1>
+    </div>
+    <div class="content">
+        <p class="show" id="visible" onclick="showDescription()">Click to read description</p>
+        <p class="hide" id="invisible" onclick="hideDescription()">
+        Disco Portraits is a collection of party identities which question the varieties of convetionaly location-bound identities we create in order to function and be perceived.
+        With this self exploration i want to illustrate the power of accessories and how our style of clothing builds and expresses our identity. In other words: Is it just our behavior and the way of clothing that makes us feel comfortable and seemingly interesting? 
+        <br /><br />
+        I discovered that this phenomenon also applys to me; I want to fit in, but want to be seen. I want to be crazy, but be respected. It is about exploring my own identities that I, depended on where i am, feel compftable with. Let's celebrate the freedom of individuality!<br /><br />
+        The basis for the creation of the different identities is a python based program, which dices the attributes from several lists in which all attributes are stored together and distributes them in consideration with the fixed occurrence probability on hundred individual lists. The result is a collection of identitie descriptions, where the first one is the most 'special' and the last one is the most 'average'. The rarer the character, the more 'special' the mask and costume.<br><br>
+        In the next step, these lists were read step by step, staged and photographed. With the help of an electronic library "FPDF", all photographs and their attributes were then combined in a digital book.<br><br>(click on text to hide description)
+        </p>
+        <br>
+        <div class="image-grid">
+        </div>
+        <br>
+        <p class="description">
+        The interactive version is still very alpha and can until now only be used in the terminal. Try now!
+        </p>
+        <a class="link_in_text" href="https://github.com/wathfield/discoportraits_interactive">discoportraits interactive</a>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div id="footer">
+        <li>
+            <a class="footer_text" href="https://www.instagram.com/tingeltangel.jasp/"><h1>© Jasper Venter</h1></a>
+        </li>
+        <li>
+            <a class="footer_text" href="https://www.uni-weimar.de/de/universitaet/start/"><h1>Bauhaus-Universität Weimar</h1></a>
+        </li>
+    </div>
+</body>
+</html>
